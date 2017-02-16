@@ -1,6 +1,10 @@
-# Functions
-Library Functions.
+# Core.Functions
+Library functions that can only be accessed through the Core and are unable to be imported.
 
+## Core:import
+**Core:import([table])**
+Inserts given libraries into the environment.
 ```lua
-test("hi")
+local Libraries = {"math", "string"}
+Core:import(Libraries)
 ```
