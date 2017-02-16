@@ -1,10 +1,5 @@
-Functions
-
-
-Testing...
-
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
-local Library = require()()
-```
-
-Block of code above.
