@@ -3,7 +3,7 @@ Functions
 
 Testing...
 
-```lua
+```
 local Library = require()()
 ```
 
