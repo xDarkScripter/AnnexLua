@@ -3,11 +3,10 @@ Library functions that can only be accessed through the Core and are unable to b
 
 
 ## Core:import
-**Core:import(_[table]_)**
+**Core:import(_..._)**
 
-Inserts given libraries into the environment. If the table is empty or nil, the function will import all existing libraries into the environment.
+Inserts given libraries into the environment.
 
 ```lua
-local Libraries = {"math", "string"}
-Core:import(Libraries)
+Core:import("math", "string")
 ```
