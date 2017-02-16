@@ -1,5 +1,6 @@
 # Core.Functions
-Library functions that can only be accessed through the Core and are unable to be imported.
+Library functions that can only be accessed through the Core and are unable to be imported. These functions may alter your script's environment.
+
 
 ## Core:import
 **Core:import([table])**
