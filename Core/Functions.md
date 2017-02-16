@@ -3,7 +3,7 @@ Library functions that can only be accessed through the Core and are unable to b
 
 
 ## Core:import
-**Core:import([table])**
+**Core:import(_[table]_)**
 
 Inserts given libraries into the environment.
 
