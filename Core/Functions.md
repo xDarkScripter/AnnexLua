@@ -1,12 +1,12 @@
 # Core.Functions
-Library functions that can only be accessed through the Core and are unable to be imported. These functions may alter your script's environment.
+These functions are part of the main core library.
 
 
-## Core:import
-**Core:import(_..._)**
+## Core:Get
+**Core:Get(_..._)**
 
-Inserts given libraries into the environment. Unfortunately, if not defined, some syntax highlighters may give a warning for unknown variables.
+Returns given sublibraries.
 
 ```lua
-Core:import("math", "string")
+Core:Get("math", "string")
 ```
